@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "name": "Silk Saree",
+    "price": 2000,
+    "imgUrl": "img/offer/offer-1.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corporis at nesciunt aut, illum placeat a quisquam, error doloremque tempore recusandae quidem, fugit accusantium consequuntur quae rem unde"
+  },
+  {
+    "id": "2",
+    "name": "Cotton Saree",
+    "price": 1500,
+    "imgUrl": "img/offer/offer-2.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corporis at nesciunt aut, illum placeat a quisquam, error doloremque tempore recusandae quidem, fugit accusantium consequuntur quae rem unde"
+  },
+  {
+    "id": "3",
+    "name": "Rayon Saree",
+    "price": 1000,
+    "imgUrl": "img/offer/offer-3.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corporis at nesciunt aut, illum placeat a quisquam, error doloremque tempore recusandae quidem, fugit accusantium consequuntur quae rem unde"
+  },
+  {
+    "id": "4",
+    "name": "Silk Saree",
+    "price": 1000,
+    "imgUrl": "img/offer/offer-1.png",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci corporis at nesciunt aut, illum placeat a quisquam, error doloremque tempore recusandae quidem, fugit accusantium consequuntur quae rem unde"
+  }
+]

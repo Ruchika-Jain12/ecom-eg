@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Health Products For You: Home Health Care Products & Medical Supplies
+    </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <!-- owlcarousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- owlcarousel -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div id="header1">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-0 py-2">
+                <strong>Save 20% On Your First Autoship Order</strong>
+              </p>
+            </div>
+            <div class="col-md-6 text-md-end">
+              <p class="mb-0 py-2">Online since 2002 | <a href="tel: +91-9876543210">98765343210</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div id="header2">
+        <nav class="navbar navbar-expand-lg py-0">
+          <div class="container">
+            <a class="navbar-brand py-0" href="#">
+              <img
+                src="img/logo.png"
+                alt="logo"
+                loading="lazy"
+                class="img-fluid"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo02"
+              aria-controls="navbarTogglerDemo02"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Medical Supplies</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Health & Wellnes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Therapy Supplies</a>
+                </li>
+              </ul>
+              <form id="searchForm" class="d-flex" role="search">
+                <input id="searchInput"
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" onclick="searchCard()">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="banner" class="d-none d-md-block">
+      <div class="container-fluid p-0">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <a href="http://"><img
+              loading="lazy"
+              src="img/banner/banner-1.jpg"
+              alt=""
+              class="img-fluid"
+            /></a>
+          </div>
+          <div class="item">
+            <a href="http://"><img
+              loading="lazy"
+              src="img/banner/banner-2.jpg"
+              alt=""
+              class="img-fluid"
+            /></a>
+          </div>
+          <div class="item">
+            <a href="http://"><img
+              loading="lazy"
+              src="img/banner/banner-3.jpg"
+              alt=""
+              class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner" class="pt-3 d-block d-md-none">
+      <div class="container-fluid p-0">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <a href="http://"><img
+              loading="lazy"
+              src="img/banner/banner-sm-1.jpg"
+              alt=""
+              class="img-fluid"
+            /></a>
+          </div>
+          <div class="item">
+            <a href="http://"><img
+              loading="lazy"
+              src="img/banner/banner-sm-2.jpg"
+              alt=""
+              class="img-fluid"
+            /></a>
+          </div>
+          <div class="item">
+            <a href="http://"><img
+              loading="lazy"
+              src="img/banner/banner-sm-3.jpg"
+              alt=""
+              class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="offers" class="py-5">
+      <div class="container">
+        <div class="card rounded-4 p-3">
+          <h1>Offers</h1>
+        <div class="row" id="cardsContainer">
+          
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="discount">
+      <div class="container-fluid">
+        
+        <div class="row py-5">
+          <div class="col-md-3">
+            <div class="card h-100 shadow-sm rounded-0 p-3 border-0">
+              <h4 class="pb-2">Extra 30% Discount</h4>
+            <div class="row" id="discountContainer">
+              
+            </div>
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="card h-100 shadow-sm rounded-0 p-3 border-0">
+              <h4 class="pb-2">Top Selling Brands And Products</h4>
+            <div class="row" id="topSelling">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <footer id="footer" class="pt-md-4">
+      <div id="footer1">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-md-3">
+              <h5 class="pb-2">Company Info</h5>
+                <p class="mb-2"><a href="http://">About Us</a></p>
+                <p class="mb-2"><a href="http://">Contact Us</a></p>
+                <p class="mb-2"><a href="http://">Our Stores</a></p>
+                <p class="mb-2"><a href="http://">Testimonials</a></p>
+                <p class="mb-2"><a href="http://">Site Map</a></p>
+                <p class="mb-2"><a href="http://">Privacy Policy</a></p>
+            </div>
+            <div class="col-6 col-md-3">
+              <h5 class="pb-2">Customer Service</h5>
+                <p class="mb-2"><a href="http://">Track Your Order</a></p>
+                <p class="mb-2"><a href="http://">Reorder Express</a></p>
+                <p class="mb-2"><a href="http://">Order History</a></p>
+                <p class="mb-2"><a href="http://">Terms & Conditions</a></p>
+                <p class="mb-2"><a href="http://">Shipping and Return Policy</a></p>
+                <p class="mb-2"><a href="http://">Replacement Parts Request</a></p>
+                <p class="mb-2"><a href="http://">B2B/Quote Request</a></p>
+            </div>
+            <div class="col-6 col-md-3 pt-3 pt-md-0">
+              <h5 class="pb-2">Our Programs</h5>
+                <p class="mb-2"><a href="http://">HPFY Reward Program</a></p>
+                <p class="mb-2"><a href="http://">Giving Day</a></p>
+                <p class="mb-2"><a href="http://">Loyalty Program</a></p>
+                <p class="mb-2"><a href="http://">HPFY Scholarship</a></p>
+                <p class="mb-2"><a href="http://">Affiliate Program</a></p>
+                <p class="mb-2"><a href="http://">AutoShip</a></p>
+            </div>
+            <div class="col-6 col-md-3 pt-3 pt-md-0">
+              <h5 class="pb-2">Resources</h5>
+                <p class="mb-2"><a href="http://">Coupons & Deals</a></p>
+                <p class="mb-2"><a href="http://">Articles</a></p>
+                <p class="mb-2"><a href="http://">Health Tips</a></p>
+                <p class="mb-2"><a href="http://">FSA Eligible</a></p>
+                <p class="mb-2"><a href="http://">Size Charts</a></p>
+                <p class="mb-2"><a href="http://">FAQ</a></p>
+                <p class="mb-2"><a href="http://">Ask the Expert</a></p>
+            </div>
+          </div>
+          <div class="row py-4 pt-md-5 text-center justify-content-center">
+            <div class="col-6 col-md-2">
+              <a href="http://">
+                <img src="img/footer-1.webp" alt="logo-img">
+              </a>
+            </div>
+            <div class="col-6 col-md-2">
+              <a href="http://">
+                <img src="img/footer-2.webp" alt="logo-img">
+              </a>
+            </div>
+            <div class="col-6 col-md-2 pt-3 pt-md-0">
+              <a href="http://">
+                <img src="img/footer-3.webp" alt="logo-img">
+              </a>
+            </div>
+            <div class="col-6 col-md-2 pt-3 pt-md-0">
+              <a href="http://">
+                <img src="img/footer-4.png" alt="logo-img">
+              </a>
+            </div>
+          </div>
+          <p class="text-center pb-1">Content on healthproductsforyou.com is for information only and should not be used as medical advice, to diagnose, or treat patients. The use of this website is subject to our shopping terms and privacy policy.</p>
+        </div>
+      </div>
+      <div id="footer2">
+        <div class="container">
+          <p class="text-center mb-0 py-2">© 2002 - 2024 HealthProductsForYou.com. All Rights Reserved. | Powered by Saevah</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- owlcarousel -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        // nav: true,
+        dots: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+    </script>
+    <!-- owlcarousel -->
+    <script src="index.js"></script>
+  </body>
+</html>

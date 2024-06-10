@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+// .poppins-thin {
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 100;
+//   font-style: normal;
+// }
+
+$primary-clr :#4f8324;
+$white-clr : #fff;
+$poppins : "Poppins", sans-serif;
+// 3E4546
+
+@mixin fonttext($clr, $font-size){
+font-family: $poppins;
+color: $clr;
+font-size: $font-size;
+}
+
+body{
+  background-color: #fcfcfc;
+}
+
+#header1{
+  background-color: $primary-clr;
+  p{
+    @include fonttext($white-clr, 16px);
+    a{
+      @include fonttext($white-clr, 16px);
+      text-decoration: none;
+    }
+  }
+}
+#header2{
+  a{
+    @include fonttext(#3E4546, 16px);
+    &:hover, a.active{
+      @include fonttext($primary-clr, 16px);
+      font-weight: 500;
+    }
+  }
+  a.active{
+    @include fonttext($primary-clr, 16px);
+font-weight: 500;
+  }
+}
+
+#banner{
+  .owl-theme .owl-dots .owl-dot span {
+      width: 40px;
+      height: 4px;
+      border-radius: 0px;
+  }
+    .owl-theme .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+      background: $primary-clr;
+    }
+}
+
+#offers{
+  .card{
+    background-color: #f9f9f9;
+    border: 0;
+  }
+}
+
+#discount{
+    background-color: #f9f9f9;
+    border: 0;
+    h4 {
+        @include fonttext(#025685, 21px);
+        font-weight: 600;
+    }
+}
+
+#footer{
+  #footer1{
+    h5{
+        @include fonttext(#025685, 24px);
+        font-weight: 600;
+        @media(max-width:576px){
+          @include fonttext(#025685, 18px);
+        }
+    }
+    p{
+        @include fonttext(#3e454c, 16px);
+      a{
+        @include fonttext(#3e454c, 16px);
+        text-decoration: none;
+        @media(max-width:576px) {
+           @include fonttext(#3e454c, 14px);
+          }
+        &:hover{
+          color: #025685;
+        }
+      }
+    }
+  };
+
+  #footer2 {
+      background-color: $primary-clr;
+  
+      p {
+        @include fonttext($white-clr, 16px);
+      }
+    }
+}

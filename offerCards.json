@@ -1,0 +1,38 @@
+[
+  {
+    "id": "11",
+    "name": "Name-1",
+    "price": 2000,
+    "imgUrl": "img/offer/offer-1.png"
+  },
+  {
+    "id": "12",
+    "name": "Name-2",
+    "price": 1500,
+    "imgUrl": "img/offer/offer-2.png"
+  },
+  {
+    "id": "13",
+    "name": "Name-3",
+    "price": 1000,
+    "imgUrl": "img/offer/offer-3.png"
+  },
+  {
+    "id": "14",
+    "name": "Name-4",
+    "price": 1000,
+    "imgUrl": "img/offer/offer-3.png"
+  },
+  {
+    "id": "15",
+    "name": "Name-5",
+    "price": 2000,
+    "imgUrl": "img/offer/offer-2.png"
+  },
+  {
+    "id": "16",
+    "name": "Name-6",
+    "price": 1500,
+    "imgUrl": "img/offer/offer-1.png"
+  }
+]
